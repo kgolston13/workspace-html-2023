@@ -101,8 +101,26 @@
 			</table>
 			<!--Learning how to use and make forms
 			Forms are used to make form controls:
-			text inputs, buttons, submit, etc.-->
-			
+			text inputs, buttons, submit, etc.
+			Radio and checkbox must be in the same group-->
+			<h2>Form Practice</h2>
+			<form action="">
+				Username: <input type="text" name="username" id="">
+				<br>
+				Password: <input type="password" name="password" id="">
+				<br>
+				<p>Please select your favorite genre:
+					<input type="radio" name="genre" value="rock">Rock
+					<input type="radio" name="genre" value="pop">Pop
+					<input type="radio" name="genre" value="country">Country
+				</p>
+				<p>Your favorite music service: 
+				<input type="checkbox" name="music" value="itunes"> iTunes
+				<input type="checkbox" name="music" value="spotify"> Spotify
+				<input type="checkbox" name="music" value="amazon"> Amazon
+				</p>
+				<input type="submit" value="Click to submit">
+			</form>
 		</div>
 
 	</div>
